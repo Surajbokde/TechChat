@@ -10,6 +10,7 @@ but for private chat room those who are having password are able to join.
 
 I provide feature of uploading you profile pic and change your password .
 
-##System Requirement
+## System Requirement
+
 -XAMPP  [Ubuntu installation Guide](https://linuxconfig.org/how-to-install-xampp-on-ubuntu-linux)<br/> 
 
