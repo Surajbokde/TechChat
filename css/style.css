@@ -1,0 +1,308 @@
+.body{
+    background-color: black;
+}
+#login_form{
+    width: 300px;
+    box-shadow: 0px 18px 60px rgba(255, 255, 255, 0.747);
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 30px 30px 30px;
+    background: #fff;
+    position: relative;
+}
+input{
+    display: block;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 14px;
+    color: #58585875;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.field {
+    border-radius: 100px;
+    border: none;
+    padding: 16px;
+    background: #f1f1f1;
+}
+
+.btn-primary{
+    border-radius: 12px;
+}
+
+.btn{
+    border-radius: 10px;
+} 
+
+.btn-primary:hover{
+    color: rgb(9, 29, 29);
+    background-color: rgb(127, 193, 255);
+}
+
+.signup{
+    font-size: 14px;
+    float: right;
+}
+.signup a{
+    float: right;
+}
+
+.login{
+    font-size: 12px;
+    float: right;
+}
+.login a{
+    font-size: 14px;
+    float: right;
+}
+
+.newhr{
+    border: 1px solid rgb(92, 4, 255);
+    size: 2px;
+}
+
+.head_form{
+    float: right;
+    font-size: 20px;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
+  
+
+#signup_form{
+    width: 300px;
+    box-shadow: 0px 15px 60px rgba(255, 253, 253, 0.788);
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 30px 30px 30px;
+    background: #fff;
+    position: relative;
+}
+
+
+
+.signuplogin a{
+    float: right;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 136, 255);
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 28px;
+    font-size: 18px;
+}
+
+.signuplogin a:hover{
+    background-color: rgb(91, 195, 255);
+    color: black;
+}
+
+.btn-warning{
+    border-radius: 20px;
+}
+
+.btn-warning:hover{
+    color: black;
+    background-color: coral;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    box-shadow: 10px 5px 20px rgba(13, 255, 106, 0.788);
+}
+
+.navbar-header .navbar-brand{
+    color: rgb(4, 255, 4);
+    font-family: 'Syne Mono', monospace;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.navbar-header .navbar-brand:hover{
+    color: rgba(68, 255, 11, 0.781);
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.navbar-nav>li>.dropdown-menu{
+    color: lawngreen;
+    background-color: rgb(92, 92, 92);
+    border-radius: 12px;
+    z-index: 12;
+}
+
+.navbar-nav>li>.dropdown-menu>li>a:hover{
+    background-color: rgb(255, 255, 7);
+   
+    padding: 8px;
+}
+.dropdown-menu>li>a{
+    color: chartreuse;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: rgba(2, 2, 2, 0.788);
+    border-radius: 40%;
+    color: rgb(0, 255, 21);
+}
+
+.modal-content{
+    background-color: rgba(126, 128, 128, 0.842);
+    border-radius: 20px;
+}
+
+.input-group .form-control{
+    margin-top: 0%;
+    border-radius: 15px;
+}
+.modal-header{
+    background-color: rgb(73, 73, 73);
+    color: chartreuse;
+    border-radius: 20px;
+}
+
+.input-group-addon{
+    color: rgb(47, 255, 82);
+    border-radius: 12px;
+    background-color: black;
+    font-size: 16px;
+    padding: 1px;
+
+}
+
+.panel-default{
+    background-color: rgba(0, 0, 0, 0.932);
+    z-index: 3;
+    color: chartreuse;
+    border-radius: 18px;
+}
+
+.panel-default>.panel-heading{
+    background-color: black;
+    border-radius: 18px;
+    color: chartreuse;
+}
+
+.panel-default>.panel-heading{
+    color: yellow;
+    z-index: 7;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: rgba(245, 245, 245, 0.377);
+}
+
+.table-striped>tbody>tr:nth-of-type(even):hover{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+#chatRoom_wrapper{
+    background-color: black;
+    border-radius: 20px;
+    color: chartreuse;
+}
+
+div.dataTables_length label{
+    
+    padding: 17px;
+}
+
+div.dataTables_filter label{
+    padding: 10px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+    background-color: rgba(1, 32, 41, 0.699);
+    color: rgb(255, 255, 255);
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+    background-color: rgba(1, 32, 41, 0.699);
+    color: rgb(255, 255, 255);
+}
+
+div.dataTables_paginate{
+    padding: 10px;
+}
+
+div.dataTables_info{
+    padding: 10px;
+}
+
+a{
+    color: rgb(47, 196, 255);
+}
+
+.container-fluid{
+    
+    color: chartreuse;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: black;
+}
+
+.input-group .form-control, .input-group-addon{
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
+
+button.close{
+    color: rgb(255, 255, 255);
+    
+}
